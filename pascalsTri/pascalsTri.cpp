@@ -7,7 +7,7 @@ int main()
   std::cout << "Input number of rows to print: " ;
   std:cin >> rows;
   std::cout << endl;
-  int test = 1;
+        
 
   for (int i = 0; i < rows; i++) {           //iterates through rows
     int val = 1;

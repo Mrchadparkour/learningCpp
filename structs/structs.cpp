@@ -36,5 +36,5 @@ int main()
  
  employee.age = 22;
  employee.id_number = 1;
- employee.salary = 12000.21
+ employee.salary = 12000.2;
 }

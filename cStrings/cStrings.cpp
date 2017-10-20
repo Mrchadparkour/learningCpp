@@ -29,7 +29,7 @@ int main()
     cout << "Hello " << name << ".\n";
   }
 
-  cout << "You name is " << strlen(name) << "letters long.\n";
+  cout << "You name is " << strlen(name) << " Pletters long.\n";
   cout << "Whats your last name? ";
   cin.getline(lastname, 50);
   fullname[0] = '\0';

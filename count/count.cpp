@@ -3,8 +3,9 @@
 
 using namespace std;
 
-int main(int test)
+int main(int argc, char *argv[])
 {
-  cout << test << endl;
+  ifstream b_file (argv[1]);
+  cout << *b_file << endl;
   return 0;
 }
